@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">maestroDetalleRealm</string>
+    <string name="age_label">Edad:</string>
+    <string name="dni_label">DNI:</string>
+    <string name="add_button_label">Añadir</string>
+    <string name="cancel_button_label">Cancelar</string>
+    <string name="name_label">Name</string>
+    <string name="surname_label">Apellidos</string>
+    <string name="job_label">Profesion</string>
+    <string name="title_label">Titulo</string>
+    <string name="poblacion_label">Poblacion:</string>
+    <string name="update_button_label">Actualizar</string>
+    <string name="delete_button_label">Borrar</string>
+    <string name="rating_label">Valoracion:</string>
+    <string name="fechaNacimiento_label">Fecha de nacimiento:</string>
+
+</resources>

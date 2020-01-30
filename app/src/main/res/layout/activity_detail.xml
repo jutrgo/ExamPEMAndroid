@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Detail.DetailActivity">
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="@string/cancel_button_label"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/updateButton"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="@string/update_button_label"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/deleteButton"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_button_label"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/ratingLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rating_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ratingText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/nameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/surnameLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/surname_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/surnameText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/ageLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/age_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/ageText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/dniLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/dni_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/dniText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/jobLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/job_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/jobText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/poblacionLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/poblacion_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/poblacionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/fechaNacimientoLabel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fechaNacimiento_label"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/fechaNacimientoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:textSize="12sp" />
+
+</LinearLayout>
